@@ -1,0 +1,150 @@
+@media screen and (max-width:768px) {
+    .container{
+        width: 95%;
+    }
+    .home {
+        height: 50vh;
+        background-image: url("../images/business-main.jpg");
+        background-size: cover;
+        background-position: 0px 0px;
+        overflow: hidden;
+    }
+    .home .text_home h1 {
+        font-size: 34px!important;
+    }
+    .home .text_home p {
+        line-height: 1.5;
+        font-weight: 500;
+        font-size: 16px!important;
+        }
+    .home .text_home{
+        width: 60vh;
+    }
+    .btn {
+        padding: 17px 10px;
+        font-size: 12px;
+    }
+    .item {
+        width: 50%;
+        margin: auto;
+        padding-left: 30%;    }
+    .father .fat .container p {
+        font-size: 20px;
+    }
+    .Definition{
+        padding: 7% 0;
+    }
+    .left{
+        padding-top: 15%;
+    }
+
+
+    .images .w2{
+        margin-top: 9%;
+        padding-left: 20px;
+        width: 45%;
+        display: inline-block;
+    }
+    .images .w2 img{
+        width: 40%;
+    }
+    .work .cent h2 {
+    font-size: 30px;
+    opacity: .9;
+    margin-bottom: 20px;
+    }
+    .work .cent p{
+        margin-top: 15px;
+        color: rgba(0,0,0,.5);
+        font-size: 20px;
+        line-height: 1.5em;
+        margin-bottom: 10px;
+    }
+    .work .cent .btn {
+        padding: 20px 12px;
+        font-size: 12px;
+    }
+    .item {
+        padding-left: 5%;
+        float: left;
+
+    }
+
+    .footer{
+        padding: 20px 0;
+    }
+
+    .footer .item{
+        width: 50%;
+    }
+
+    .footer .item h3 {
+        margin-top: 10px;
+        letter-spacing: 0px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .end .le {
+        text-align: center;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 90%;
+    }
+    .home {
+        height: 45vh;
+        margin: auto;
+        text-align: center;
+    }
+    .navlist ul li{
+        float: left;
+        padding: 0 3px;
+    }
+    .Navbar .navlist a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .home .text_home h1 {
+        font-size: 32px!important;
+    }
+    .home .text_home{
+        width: 40%;
+    }
+    .home .text_home p {
+        padding: 0 17%;
+        font-weight: 500;
+        font-size: 15px!important;
+        line-height: 1.86em;
+        margin-bottom: 20px;
+        }
+    .home .text_home{
+        width: 60vh;
+    }
+    .row .col{
+        width: 90% !important;
+        float: left;
+        margin: 12px 0;
+    }
+    .item {
+        width: 100%;
+        }
+    .Definition{
+        padding: 7% 0;
+    }
+    .left{
+        width: 100%;
+        padding-top: 15%;
+    }
+    .right{
+        width: 100%;
+    }
+    .footer .item{
+        width: 100%;
+    }
+
+}
